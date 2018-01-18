@@ -12,6 +12,10 @@
     'prefix': 'ipdb'
     'body': 'import ipdb; ipdb.set_trace()  # noqa'
 
+  'set scripting environment':
+    'prefix': 'ifname'
+    'body': 'if __name__ == "__main__":'
+
 # Imports
   'import re':
     'prefix': 'impr'
