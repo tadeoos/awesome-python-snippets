@@ -8,6 +8,10 @@
     'prefix': 'shebang'
     'body': '#!/usr/bin/env python'
 
+  'set breakpoint for ipdb debugger':
+    'prefix': 'ipdb'
+    'body': 'import ipdb; ipdb.set_trace()  # noqa'
+
 # Imports
   'import re':
     'prefix': 'impr'
