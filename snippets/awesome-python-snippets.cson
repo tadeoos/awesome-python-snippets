@@ -4,6 +4,10 @@
     'prefix': 'fileheader'
     'body': '# -*- coding: utf-8 -*-'
 
+  'Python File Shebang':
+    'prefix': 'shebang'
+    'body': '#!/usr/bin/env python'
+
 # Imports
   'import re':
     'prefix': 'impr'
